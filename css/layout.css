@@ -27,31 +27,23 @@
     max-width: 100%;
 }
 
-.bgBlue{
-    background-color: #006cfa;
-}
+.bgBlue     {    background-color: #006cfa;}
 
-.bgGreen{
-    background-color: #00e165;
-}
+.bgGreen    {   background-color: #00e165;}
 
-.bgWhite{
-    background-color: white;
-}
+.bgWhite    {   background-color: white;}
 
-.whiteBorder{
-    border: solid 1px rgb(255, 255, 255);
-}
 
-.blueBorder{
-    border: solid 1px #006cfa;
-}
+.whiteBorder    {   border: solid 1px rgb(255, 255, 255);}
+
+.blueBorder     {    border: solid 1px #006cfa;}
 
 .txtWhite{color: white;}
-.pad1{padding: 1rem;}
-.padY1{
-    padding-top: 1rem;
-    padding-bottom: 1rem;}
+
+.pad1   {     padding: 1rem;}
+.padY1  {     padding-top: 1rem;    padding-bottom: 1rem;}
+.padT3  {     padding-top: 3rem;}
+.padT2  {     padding-top: 2rem;}
 
 .flex{display: flex;}
 .alignItemsCenter{align-items: center;}
