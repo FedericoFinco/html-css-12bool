@@ -4,16 +4,6 @@
     margin: 0;
 }
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
 [class*="col-"] {
     flex-grow: 0;
@@ -26,6 +16,8 @@
     flex-basis: 0;
     max-width: 100%;
 }
+
+/*************** background and text color ************/
 
 .bgBlue     {    background-color: #006cfa;}
 
@@ -40,11 +32,23 @@
 
 .txtWhite{color: white;}
 
+/************ padding and margins ****************/
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
 .pad1   {     padding: 1rem;}
 .padY1  {     padding-top: 1rem;    padding-bottom: 1rem;}
 .padT3  {     padding-top: 3rem;}
 .padT2  {     padding-top: 2rem;}
 
+/********* flex box ************/
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .flex{display: flex;}
 .alignItemsCenter{align-items: center;}
 .justifyContentCenter{justify-content: center;}
